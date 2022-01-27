@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>LiamRoss E-Portfolio - Gallery</title>
+	<link rel="stylesheet" type="text/css" href="../css/gallery.css">
+	<link rel="icon" href="../images/LR.png" size="16x16 32x32" type="image/png">
+	<script type="text/JavaScript" src="../js/gallery-script.js"></script>
+</head>
+<body>
+	
+	<!-- Top Section -->
+	<div class="hero-wrapper">
+		<div class="wrapper">
+			<!-- Header -->
+			<header>
+				<!-- Logo -->
+				<a class="logo" href="../index.html">LiamRoss</a>
+				
+				<img id="mobile-cta" class="mobile-menu" src="../images/hamburger-menu-svg.svg" alt="Hamgurger Menu Icon"/>
+			
+				<!-- Navigation Bar -->
+				<nav>
+					<img id="mobile-exit" class="mobile-menu-exit" src="../images/exit-button-svg.svg" alt="Exit Button"/>
+					<ul>
+						<li><a href="../index.html">About Me</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="tutorial.html">Tutorial</a></li>
+						<li><a href="sound-studio.html">Sound Studio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div class="hero-content">
+				<h1>Gallery</h1>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Galley Section -->
+	<section class="gallery">
+		
+		<h1>Gallery of Work</h1>
+		
+		<!-- Web Development -->
+		<div class="gallery-container gallery-one">
+			<div class="gallery-left">
+				<div class="inner">
+					<p class="gallery-subtitle">HTML/CSS/JavaScript Programming</p>
+					<p class="gallery-title">Web Development</p>
+					<p class="gallery-description">During our web development module, we have been learning HTML, CSS and JavaScript. We were tasked to build our own website as 
+						our first project using HTML and CSS. As an avid fan of Star Wars, I decided to make my website all about Star Wars. I included information on the 
+						history of the franchise, news about upcoming movies and TV Shows and also information on existing properties. I have included an image of one of 
+						the pages on my website and also an image of the HTML and CSS behind that page. The other image is an example of JavaScript that generates random numbers
+						between two inputted values. I have also included a live example of JavaScript below in the form of a volume calculator.</p>
+				</div>
+			</div>
+			<div class="gallery-right">
+				<img id="myImg1" src="../images/web-dev-image2.jpg" alt="Fig 2.1 Image of my First Website"/>
+			</div>
+		</div>
+		
+		<!-- Web Development Extra Images -->
+		<div class="gallery-container">
+			<div class="gallery-left">
+				<div class="extra-images left">
+					<img id="myImg2" src="../images/web-dev-image3.jpg" alt="Fig 2.2 HTML and CSS Split Code Example"/>
+				</div>
+			</div>
+			<div class="extra-images right">
+				<img id="myImg3" src="../images/web-dev-image4.jpg" alt="Fig 2.3 JavaScript Random Number Generator Example"/>
+			</div>
+		</div>
+
+
+		<!-- JavaScript Live Example - Volume Calculator -->
+		<p class="gallery-title">Volume Calculator</p>
+
+		<div class="volume-calculator">
+
+			<!-- Select a Shape -->
+			<div class="shape-selection">
+				<p class="volume-title">Select a Shape:</p>
+				<label for="cuboid">Cuboid</label>
+				<input type="radio" id="cuboid"/>
+
+				<label for="cylinder">Cylinder</label>
+				<input type="radio" id="cylinder"/>
+
+				<label for="sphere">Sphere</label>
+				<input type="radio" id="sphere"/>
+			</div>
+
+			<!-- Three Columns -->
+			<div class="input-values">
+				<ul class="content">
+
+					<li class="col-1">
+						<p class="volume-title">Formula:</p>
+						<p id="selected"></p>
+						<p id="formula"></p>
+					</li>
+
+					<!-- Input Values -->
+					<li class="col-2">
+						<p class="volume-title">Enter your values:</p>
+
+						<label for="length">Length:</label>
+						<input type="text" id="length" disabled/>
+
+						<label for="width">Width:</label>
+						<input type="text" id="width" disabled/>
+
+						<label for="height">Height:</label>
+						<input type="text" id="height" disabled/>
+
+						<label for="radius">Radius:</label>
+						<input type="text" id="radius" disabled/>
+
+						<!-- Reset Button -->
+						<input type="button" id="reset" value="Reset"/>
+
+						<!-- Calculate Button -->
+						<input type="button" id="calculate" value="Calculate"/>
+
+						<div id="message"></div>
+					</li>
+
+					<li class="col-3">
+						<p class="volume-title">Answer:</p>
+						<p id="answer-title"></p>
+						<p id="answer"></p>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+		
+		
+		<!-- Software Development -->
+		<div class="gallery-container gallery-two">
+			<div class="gallery-left">
+				<div class="inner">
+					<p class="gallery-subtitle">Java Programming</p>
+					<p class="gallery-title">Software Development</p>
+					<p class="gallery-description">Java has been the primary focus of our software development module. We have been writing lots of programs the concepts that 
+						I mentioned before, such as loops, methods, arrays and array lists. I have included three example images of programs that I have written in eclipse. 
+						I have also included a java program simulation below. It is a program that reverses the word that is entered. This program isn't written using java 
+						code however, it is simulating how a java program would run in an IDE, such as eclipse.</p>
+				</div>
+			</div>
+			<div class="gallery-right">
+				<img id="myImg4" src="../images/soft-dev-image1.jpg" alt="Fig 2.4 Java Program with Methods & Iteration"/>
+			</div>
+		</div>
+		
+		<!-- Software Development Extra Images -->
+		<div class="gallery-container">
+			<div class="gallery-left">
+				<div class="extra-images left">
+					<img id="myImg5" src="../images/soft-dev-image3.jpg" alt="Fig 2.5 Java Program with Array Lists & Methods"/>
+				</div>
+			</div>
+			<div class="extra-images right">
+				<img id="myImg6" src="../images/soft-dev-image2.jpg" alt="Fig 2.6 Java Program with Array Lists"/>
+			</div>
+		</div>
+
+
+		<!-- Java Code Example -->
+		<p class="gallery-title">Java Program Simulation</p>
+
+		<div class="java-code-container">
+		
+			<!-- Left Side -->
+			<div class="java-code-left">
+
+				<code>
+					<span class="orange">public class</span> <span class="blue">stringReverse</span>
+					<br>
+					{
+					<br><br>
+					<span class="tab1 grey">/**</span>
+					<br>
+					<span class="comment grey">* The Method reverses the word that is <span class="stray-word">entered</span></span>
+					<br>
+					<span class="comment grey">* <span class="brown">@param</span> str</span>
+					<br>
+					<span class="comment grey">* <span class="brown">@return</span> the reverse of the word entered</span>
+					<br>
+					<span class="comment grey">*/</span>
+					<br>
+					<span class="tab1"><span class="orange">public static</span> <span class="blue">String</span> <span class="green">reverse</span>(<span class="blue">String</span> <span class="lightblue">str</span>)</span>
+					<br>
+					<span class="tab1">{</span>
+					<br>
+					<span class="tab2"><span class="blue">String</span> <span class="yellow">result</span> = <span class="lightgreen">""</span>;</span>
+					<br><br>
+					<span class="tab2"><span class="orange">for</span> (<span class="orange">int</span> <span class="yellow">i</span> = <span class="lightblue">str</span>.<span class="yellowgreen">length</span>()-<span class="lightblue">1</span>; <span class="yellow">i</span> &gt;= <span class="lightblue">0</span>; <span class="yellow">i</span>--)</span>
+					<br>
+					<span class="tab2">{</span>
+					<br>
+					<span class="tab3"><span class="yellow">result</span> = <span class="yellow">result</span> + <span class="lightblue">str</span>.<span class="yellowgreen">charAt</span>(<span class="yellow">i</span>);</span>
+					<br>
+					<span class="tab2">}</span>
+					<br>
+					<span class="tab1">}</span>
+					<br><br>
+					<span class="tab1"><span class="orange">public static void</span> <span class="green">main</span>(<span class="blue">String</span>[] <span class="lightblue">args</span>)</span>
+					<br>
+					<span class="tab1">{</span>
+					<br>
+					<span class="tab2"><span class="blue">String</span> <span class="yellow">str</span> = <span class="yellowgreen">reverse</span>(<span class="lightgreen">"<span id="wordToReverse"></span>"</span>);</span>
+					<br><br>
+					<span class="tab2"><span class="blue">System</span>.<span class="lightblue">out</span>.<span class="yellowgreen">println</span>(<span class="yellow">str</span>);</span>
+					<br>
+					<span class="tab1">}</span>
+					<br>
+					<span>}</span>
+				</code>
+
+				<!-- Run Button -->
+				<input type="button" id="run" value="Run"/>
+			</div>
+
+			<!-- Right Side -->
+			<div class="java-code-right">
+
+				<!-- Enter a Word to Reverse -->
+				<div class="enter-word">
+					<code class="orange">Try it yourself!</code> <br>
+
+					<ul>
+						<li><code>Press <span class="blue">"Clear"</span> to clear the existing word.</code></li>
+						<li><code>Type the word you would like to reverse and press <span class="lightgreen">"Enter"</span>.</code></li>
+						<li><code>Press <span class="green">"Run"</span> to run the program.</code></li>
+					</ul>
+					<input type="text" id="enteredWord"/>
+
+					<!-- Clear Button -->
+					<div class="clear-btn">
+						<input type="button" id="clear" value="Clear"/>
+					</div>
+					<!-- Enter Button -->
+					<div class="enter-btn">
+						<input type="button" id="enter" value="Enter"/>
+					</div>
+				</div>
+
+				<code class="output-title">Output:</code>
+
+				<div class="output-container">
+					<code style="color:white;" id="output"></code>
+				</div>
+			</div>
+		</div>
+
+
+		
+		
+		<!-- Game Development -->
+		<div class="gallery-container gallery-three">
+			<div class="gallery-left">
+				<div class="inner">
+					<p class="gallery-subtitle">GameMaker Studio</p>
+					<p class="gallery-title">Game Development</p>
+					<p class="gallery-description">As part of our game development module, we were tasked to create out our platform game. 
+						Again, as a fan of Star Wars, I decided to base my main character on "Boba Fett", a bounty hunter from the Star Wars 
+						universe and used this as a starting ground for my game. The next step I took was creating the sprites for my game. 
+						I used Adobe Photoshop to draw the sprites and backgrounds, which I have included an example of. After I had all the sprites drawn, 
+						I got to work on the mechanics and the workings of the game. We were also asked to make a trailer for our game, which you can watch below.</p>
+				</div>
+			</div>
+			<div class="gallery-right">
+				<img id="myImg7" src="../images/game-dev-image1.jpg" alt="Fig 2.7 Image of my First Game"/>
+			</div>
+		</div>
+		
+		<!-- Game Development Extra Images -->
+		<div class="gallery-container">
+			<div class="gallery-left">
+				<div class="extra-images left">
+					<img id="myImg8" src="../images/game-dev-image.jpg" alt="Fig 2.8 Player objects & final level example"/>
+				</div>
+			</div>
+			<div class="extra-images right">
+				<img id="myImg9" src="../images/game-dev-image3.jpg" alt="Fig 2.9 Player Sprite drawn in PhotoShop"/>
+			</div>
+		</div>
+		
+		<!-- Game Development - Game Trailer -->
+		<div class="video">
+			<video width="100%" controls>
+				<source src="../videos/game-dev-trailer-compressed.mp4" type="video/mp4">
+			</video>
+		</div>
+
+		
+		
+		<!-- Digital Media -->
+		<div class="gallery-container gallery-four">
+			<div class="gallery-left">
+				<div class="inner">
+					<p class="gallery-subtitle">Photo Manipulation</p>
+					<p class="gallery-title">Digital Media</p>
+					<p class="gallery-description">In digital media we have learned alot of photo manipulation. We have learned about layering images on top of one another, 
+						brightness and contrast, hue and saturation, selecting and cutting specific parts of images and also text effects such as, drop shadow and inner and 
+						outer glow. I have included examples of some photo composites that we have created. We have also learned different concepts around audio editing, see 
+						the <a href="sound-studio.html" title="LiamRoss E-portfolio - Sound Studio">Sound Studio</a> for more information on audio.</p>
+				</div>
+			</div>
+			<div class="gallery-right">
+				<img id="myImg10" src="../images/digital-media-image.jpg" alt="Fig 2.10 Gaming Society Flyer Photo Composite"/>
+			</div>
+		</div>
+		
+		<!-- Digital Media Extra Images -->
+		<div class="gallery-container">
+			<div class="gallery-left">
+				<div class="extra-images left">
+					<img id="myImg11" src="../images/digital-media-image1.jpg" alt="Fig 2.11 Magazine Cover Photo Composite "/>
+				</div>
+			</div>
+			<div class="extra-images right">
+				<img id="myImg12" src="../images/digital-media-image2.jpg" alt="Fig 2.12 Postcard Photo Composite"/>
+			</div>
+		</div>	
+	</section>
+	
+	
+	
+	
+	<!-- Personal Work Section -->
+	<div class="color-container">
+		<!-- Description -->
+		<section class="gallery">
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="inner">
+						<p class="gallery-subtitle">Adobe PhotoShop &amp; Adobe After Effects</p>
+						<p class="gallery-title">My Personal Work</p>
+						<p class="gallery-description">After finishing secondary school, I took an interest in photo manipulation and video compositing. After doing some research, 
+							I came across Adobe PhotoShop and Adobe After Effects and instantly took a liking to them. PhotoShop is a raster graphics editor and After Effects 
+							is a digital visual effects, motion graphics and compositiing application, both from Adobe Systems. The learning curve to these applications was steep, 
+							however after watching and following many tutorials online, I have learned alot and I feel that I have a good understanding of these applications. 
+							Below I have some examples of photo and video composites that I have created.</p>
+					</div>
+				</div>
+				<div class="gallery-right">
+					<img src="../images/gallery-personal-work.jpg" alt="Adobe PhotoShop and Adobe After Effects Logos">
+				</div>
+			</div>
+
+			<!-- Personal Work Content -->
+			<!-- Row 1 - Edit of Myself -->
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="extra-images left">
+						<img id="myImg13" src="../images/personal-work-image1-ps.jpg" alt="Edit of Myself in PhotoShop"/>
+					</div>
+				</div>
+				<div class="extra-images right">
+					<img id="myImg14" src="../images/personal-work-image1.jpg" alt="Edit of Myself Before and After"/>
+				</div>
+			</div>
+
+			<!-- Row 2 - Jesse Pinkman -->
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="extra-images left">
+						<img id="myImg15" src="../images/personal-work-jesse.jpg" alt="Jesee Pinkman Edit Before and After"/>
+					</div>
+				</div>
+				<div class="extra-images right">
+					<img id="myImg16" src="../images/personal-work-jesse-ps.jpg" alt="Jesse Pinkman Edit in PhotoShop"/>
+				</div>
+			</div>
+			
+			<!-- Row 3 - Tommy Shelby -->
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="extra-images left">
+						<img id="myImg17" src="../images/personal-work-tommy-ps.jpg" alt="Tommy Shelby Edit in PhotoShop"/>
+					</div>
+				</div>
+				<div class="extra-images right">
+					<img id="myImg18" src="../images/personal-work-tommy.jpg" alt="Tommy Shelby Edit Before and After"/>
+				</div>
+			</div>
+
+			<!-- Row 4 - Post Malone & Walter White -->
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="extra-images left">
+						<img id="myImg19" src="../images/personal-work-post.jpg" alt="Post Malone Edit Before and After"/>
+					</div>
+				</div>
+				<div class="extra-images right">
+					<img id="myImg20" src="../images/personal-work-walter.jpg" alt="Walter White Edit Before and After"/>
+				</div>
+			</div>
+			
+			<!-- Row 5 - Theme Park and Crystal Ball -->
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="extra-images left">
+						<img id="myImg21" src="../images/personal-work-themepark.jpg" alt="Theme Park Edit Before and After"/>
+					</div>
+				</div>
+				<div class="extra-images right">
+					<img id="myImg22" src="../images/personal-work-crystalball.jpg" alt="Crystal Ball Edit Before and After"/>
+				</div>
+			</div>
+
+		<!--
+			// Row 6 - Vintage Artwork //
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="extra-images left">
+						<img id="myImg23" src="../images/personal-work-la.jpg" alt="Los Angeles Artwork"/>
+					</div>
+				</div>
+				<div class="extra-images right">
+					<img id="myImg24" src="../images/personal-work-nyc.jpg" alt="New York Artwork"/>
+				</div>
+			</div>
+		-->
+			<!-- Row 7 - Videos -->
+			<div class="gallery-container">
+				<div class="gallery-left">
+					<div class="left">
+						<div class="video">
+							<video width="100%" controls>
+								<source src="../videos/personal-work-video1-compressed.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="video">
+						<video width="100%" controls>
+							<source src="../videos/personal-work-video3-compressed.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+
+			<!-- Extra Video -->
+			<div class="video">
+				<video width="100%" controls>
+					<source src="../videos/personal-work-video4-compressed.mp4" type="video/mp4">
+				</video>
+			</div>
+
+		</section>
+		
+	</div>
+	
+	<!-- Footer -->
+	<footer>
+		<div class="footer-container">
+
+			<div class="footer-items">
+				<ul>
+					<li>
+						<div class="title-border">
+							<p class="title">Social Media</p>
+						</div>
+						<p class="list-item"><a href="https://twitter.com/" target="_blank">Twitter</a></p>
+						<p class="list-item"><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
+						<p class="list-item"><a href="https://github.com/rossliam2212" target="_blank">Github</a></p>
+					</li>
+
+					<li>
+						<div class="title-border">
+							<p class="title">Navigation</p>
+						</div>
+						<p class="list-item"><a href="../index.html">About Me</a></p>
+						<p class="list-item"><a href="../pages/gallery.html">Gallery</a></p>
+						<p class="list-item"><a href="../pages/tutorial.html">Tutorial</a></p>
+						<p class="list-item"><a href="../pages/sound-studio.html">Sound Studio</a></p>
+						<p class="list-item"><a href="../pages/contact.html">Contact Me</a></p>
+					</li>
+
+					<li>
+						<div class="title-border">
+							<p class="title">Other</p>
+						</div>
+						<p class="list-item"><a href="../pages/copyright.html">Copyright Statement</a></p>
+						<p class="list-item"><a href="../pages/downloads.html">Downloads</a></p>
+					</li>
+				</ul> 
+			</div>
+			
+			<div class="copyright">
+				<p>Copyright &copy;
+					<script>
+						var today = new Date();
+						document.writeln(today.getFullYear());
+					</script>
+					Liam Ross
+				</p>
+			</div>
+		</div>
+	</footer>
+	
+	
+	<!-- Click to enlarge Images -->
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="img01" alt="Modal">
+		<div id="caption"></div>
+	</div>
+	
+	
+	<script>
+		// Mobile Navigation Script
+		const mobileBtn = document.getElementById("mobile-cta");
+		nav = document.querySelector("nav");
+		mobileBtnExit = document.getElementById("mobile-exit");
+
+		mobileBtn.addEventListener("click", () => {
+		  nav.classList.add("menu-btn");
+		});
+
+		mobileBtnExit.addEventListener("click", () => {
+		  nav.classList.remove("menu-btn");
+		});
+		
+		
+		
+		// Making Images click to enlarge Script
+		
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		// Image 1
+		var img = document.getElementById("myImg1");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		// Image 2
+		var img = document.getElementById("myImg2");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 3
+		var img = document.getElementById("myImg3");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 4
+		var img = document.getElementById("myImg4");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 5
+		var img = document.getElementById("myImg5");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 6
+		var img = document.getElementById("myImg6");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 7
+		var img = document.getElementById("myImg7");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 8
+		var img = document.getElementById("myImg8");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 9
+		var img = document.getElementById("myImg9");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 10
+		var img = document.getElementById("myImg10");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 11
+		var img = document.getElementById("myImg11");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 12
+		var img = document.getElementById("myImg12");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 13
+		var img = document.getElementById("myImg13");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 14
+		var img = document.getElementById("myImg14");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 15
+		var img = document.getElementById("myImg15");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 16
+		var img = document.getElementById("myImg16");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 17
+		var img = document.getElementById("myImg17");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 18
+		var img = document.getElementById("myImg18");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 19
+		var img = document.getElementById("myImg19");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+		
+		// Image 20
+		var img = document.getElementById("myImg20");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Image 21
+		var img = document.getElementById("myImg21");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Image 22
+		var img = document.getElementById("myImg22");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Image 23
+		/*
+		var img = document.getElementById("myImg23");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Image 24
+		var img = document.getElementById("myImg24");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}*/
+
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+	</script>
+
+</body>
+</html>

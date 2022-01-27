@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #f7f7f7;
+	color: white;
+	font-family: 'Poppins', 'Montserrat';
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.hero-wrapper {
+	background: url("../images/Background Image 4.jpg");
+	background-size: cover;
+}
+
+.wrapper {
+	padding: 1.5em;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header .logo {
+	font-weight: bold;
+}
+
+/* Navigation Bar*/
+header nav {
+	display: none;
+}
+
+/*Mobile View - Navigation Bar */
+nav.menu-btn {
+	display: block;
+}
+
+header nav {
+	position: fixed;
+	z-index: 999;
+	width: 66%;
+	right: 0;
+	top: 0;
+	background: black;
+	height: 100vh;
+	padding: 1em;
+}
+
+header nav ul {
+	margin-top: 5em;
+}
+
+header nav ul li a {
+	display: block;
+	padding: .6em;
+	font-size: 1.3em;
+	text-align: right;
+}
+
+header nav ul li a:hover {
+	/*font-weight: bold;*/
+	/*color: #acacac;*/
+	background: #acacac;
+}
+
+.mobile-menu-exit {
+	float: right;
+	margin: .5em;
+	cursor: pointer;
+}
+
+.mobile-menu {
+	cursor: pointer;
+	color: white;
+}
+
+.hero-content {
+	margin: 4em 0 2em;
+}
+
+
+/*Footer*/
+footer {
+	background: black;
+	padding: 1.5em;
+}
+
+.footer-container ul{
+	display: flex;
+	justify-content: space-evenly;
+}
+.footer-container ul li {
+	list-style: none;
+}
+
+.footer-items {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+.list-item {
+	margin-top: -.5em;
+	font-size: .8em;
+}
+
+.copyright {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	border-top: 1px solid white;
+	font-size: .8em;
+	padding-top: .5em;
+}
+
+
+/* Making images click to enlarge CSS */
+#myImg1, #myImg2 {
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.95;}
+#myImg2:hover {opacity: 0.95;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+	border-radius: 1em;
+	
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Sound Studio CSS */
+.sound-container img {
+	width: 100%;
+	border-radius: 1em;
+	margin-bottom: 3em;
+}
+
+.extra-images img {
+	width: 100%;
+	border-radius: 1em;
+	margin-top: 3em;
+}
+
+section {
+	padding: 4em 2em;
+	text-align: center;
+	color: black;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.sound-subtitle {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .3em;
+	font-size: .85em;
+	/*color: #525252;*/
+	color: #fa1857;
+}
+
+.sound-title {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-top: -.4em;
+	display: block;
+}
+
+.sound-description {
+	margin-bottom: 3em;
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+/*Personal Work CSS*/
+.audio-description-8d {
+	margin-top: 1em;
+}
+
+audio {
+	outline: none;
+}
+
+.songs {
+	margin-top: -8em;
+}
+
+.col-1 {
+	padding: 2em 0;
+}
+
+.col-2 {
+	padding: 2em 0;
+}
+
+.col-3 {
+	padding: 2em 0;
+}
+
+.personal-work-title {
+	font-weight: bold;
+	text-decoration: underline;
+	/*color: #525252;*/
+	color: #fa1857;
+}
+
+.personal-work-description {
+	font-size: .9em;
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/*Media Queries*/
+/* 650px */
+@media only screen and (min-width: 650px) {
+	
+	.mobile-menu, .mobile-menu-exit {
+		display: none;
+	}
+	
+	header {
+		display: grid;
+		grid-template-columns: 100px auto;
+	}
+	
+	header nav {
+		display: flex;
+		justify-content: space-between;
+		background: none;
+		position: unset;
+		height: auto;
+		width: 100%;
+		padding: 0;
+	}
+	
+	header nav ul {
+		display: flex;
+		margin: 0;
+	}
+	
+	header nav ul li {
+		margin: 0;
+		border-right: 1px solid #acacac;
+	}
+	
+	.wrapper nav ul a {
+		font-size: 1em;
+		padding: .1em 1em;
+	}
+	
+	.wrapper ul li:last-child {
+		border: none;
+	}
+	
+	.hero-wrapper {
+		background-position:center;
+		height: 350px;
+	}
+}
+
+/* 800px */
+@media only screen and (min-width: 800px) {
+	.hero-wrapper {
+		height: 400px;
+	}
+	
+	.hero-content h1 {
+		font-size: 1.25em;
+	}
+	
+	.sound {
+		text-align: left;
+		/*padding-top: 7em;*/
+	}
+	
+	.sound-container {
+		display: grid;
+		grid-template-columns: 50% auto;
+	}
+	
+	.sound-left {
+		display: grid;
+		place-content: center;
+	}
+	
+	.sound-container img {
+		margin-left: 2em;
+	}
+
+	.right {
+		margin-left: 2em;
+	}
+
+	.left {
+		margin-right: 3em;
+	}
+}
+
+@media only screen and (min-width: 950px) {
+	.songs {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+	}
+
+	.personal-work-description {
+		text-align: left;
+		margin-right: 0em;
+	}
+}
+
+
+/* 1000px */
+@media only screen and (min-width: 1000px) {
+	.hero-content h1 {
+		font-size: 1.5em;
+	}
+	
+	
+	.sound-container img {
+		/*float: right;*/
+		max-width: 700px;
+	}
+}
+
+/* 1350px */
+@media only screen and (min-width: 1350px) {
+	.hero-wrapper {
+		height: 450px;
+	}
+}
+
+/* 1600px */
+@media only screen and (min-width: 1600px) {
+	.hero-wrapper {
+		height: 550px;
+		background-position: center; 
+	}
+	
+	.hero-content h1 {
+		font-size: 2em;
+	}
+}

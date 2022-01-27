@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>LiamRoss E-Portfolio - Copyright Statement</title>
+	<link rel="stylesheet" type="text/css" href="../css/copyright.css">
+	<link rel="icon" href="../images/LR.png" size="16x16 32x32" type="image/png">
+</head>
+<body>
+	
+	<!-- Top Section -->
+	<div class="hero-wrapper">
+		<div class="wrapper">
+			<!-- Header -->
+			<header>
+				<!-- Logo -->
+				<a class="logo" href="../index.html">LiamRoss</a>
+				
+				<img id="mobile-cta" class="mobile-menu" src="../images/hamburger-menu-svg.svg" alt="Hamgurger Menu Icon"/>
+			
+				<!-- Navigation Bar -->
+				<nav>
+					<img id="mobile-exit" class="mobile-menu-exit" src="../images/exit-button-svg.svg" alt="Exit Button"/>
+					<ul>
+						<li><a href="../index.html">About Me</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="tutorial.html">Tutorial</a></li>
+						<li><a href="sound-studio.html">Sound Studio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div class="hero-content">
+				<h1>Copyright Statement</h1>
+			</div>
+		</div>
+	</div>
+	
+    <!-- Copyright Section -->
+    <section>
+        <div class="copyright-container">
+            <p class="copyright-title">&copy; Copyright Statement</p>
+            <p class="copyright-section1">Material owned by other copyright holders is used here under the guidelines of the 
+                Fair Use Provision. Any such material is used for the education of AIT Students and is not intended to generate 
+                income for the school, its employees, or its students.
+            </p>
+            <p class="copyright-section2">All images, videos &amp; <em>altered</em> audio files on this website 
+                were created and/or altered by me, Liam Ross. They are freely available to download for personal use from the 
+                <a href="../pages/downloads.html">downloads section</a>. However, reference must be 
+                provided to this website if used in other works.
+            </p>
+            <p class="copyright-section3">Any and all logos and <em>unaltered</em> audio files on this website were not created by me and 
+                all copyright belongs to their respective holders.
+            </p>
+        </div>
+    </section>
+	
+	
+	<!--Footer-->
+	<footer>
+		<div class="footer-container">
+
+			<div class="footer-items">
+				<ul>
+					<li>
+						<div class="title-border">
+							<p class="title">Social Media</p>
+						</div>
+						<p class="list-item"><a href="https://twitter.com/" target="_blank">Twitter</a></p>
+						<p class="list-item"><a href="https://www.facebook.com/" target="_blank">Facebook</a></p>
+						<p class="list-item"><a href="https://github.com/rossliam2212" target="_blank">Github</a></p>
+					</li>
+
+					<li>
+						<div class="title-border">
+							<p class="title">Navigation</p>
+						</div>
+						<p class="list-item"><a href="../index.html">About Me</a></p>
+						<p class="list-item"><a href="../pages/gallery.html">Gallery</a></p>
+						<p class="list-item"><a href="../pages/tutorial.html">Tutorial</a></p>
+						<p class="list-item"><a href="../pages/sound-studio.html">Sound Studio</a></p>
+						<p class="list-item"><a href="../pages/contact.html">Contact Me</a></p>
+					</li>
+
+					<li>
+						<div class="title-border">
+							<p class="title">Other</p>
+						</div>
+						<p class="list-item"><a href="#" target="_blank">Copyright Statement</a></p>
+						<p class="list-item"><a href="../pages/downloads.html">Downloads</a></p>
+					</li>
+				</ul> 
+			</div>
+			
+			<div class="copyright">
+				<p>Copyright &copy;
+					<script>
+						var today = new Date();
+						document.writeln(today.getFullYear());
+					</script>
+					Liam Ross
+				</p>
+			</div>
+		</div>
+	</footer>
+	
+	
+	<!-- Mobile Navigation Script -->
+	<script>
+		const mobileBtn = document.getElementById("mobile-cta");
+		nav = document.querySelector("nav");
+		mobileBtnExit = document.getElementById("mobile-exit");
+
+		mobileBtn.addEventListener("click", () => {
+		  nav.classList.add("menu-btn");
+		});
+
+		mobileBtnExit.addEventListener("click", () => {
+		  nav.classList.remove("menu-btn");
+		});
+	</script>
+	
+</body>
+</html>
